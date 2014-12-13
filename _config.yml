@@ -5,7 +5,7 @@ highlighter: pygments
 # Site settings
 title: "Bejoy's Blog"
 description: > # this means to ignore newlines until "email:"
-   A Jekyll theme - Medium inspired
+  Lets Talk About Designs
 
 email: bejoynj4@gmail.com
 #blog logo
