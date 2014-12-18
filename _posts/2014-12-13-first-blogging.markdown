@@ -2,38 +2,15 @@
 layout: post
 title:  "First Blogging"
 date:   2014-12-18 05:02:25
-categories: mediator feature
+categories: Welcome Post
 tags: featured
 image: /assets/article_images/FirstBlog-201412-18/mobile-first-blog-image.png
 ---
-#Mediator Formats and CSS features
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Fist Blog Post</title>
+</head>
+<body><h1>"Hello World"</h1></body>
+</html>
 
-Examples for different formats and css features
-
-#Header Formats
-#Header1
-##Header2
-
-#Blockquotes
->Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
-
-#Lists
-##orderd lists
-1. one
-2. two
-3. three
-
-##unorderd lists
-- Apple
-- Banana
-- Plum
-
-#Links
-This is an [example link](http://example.com/ "With a Title").
-
-#Combinations
->Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
->
-> - Apple
-> - Banana
-> - Plum
