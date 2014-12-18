@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "First Blogging"
-date:   2014-12-13 16:02:25
+date:   2014-12-18 05:02:25
 categories: mediator feature
 tags: featured
-image: /assets/article_images/2014-11-30-mediator_features/night-track.JPG
+image: /assets/article_images/FirstBlog-201412-18/mobile-first-blog-image.png
 ---
 #Mediator Formats and CSS features
 
