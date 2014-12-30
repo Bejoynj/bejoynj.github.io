@@ -10,7 +10,7 @@ image: /assets/article_images/2015-01-01-happynewyear/main_banner_hny.jpg
 
 <p>
 Its 2015!!
-</p>
+</p><br/>
 <p>
 A new Year ..A new start
 </p>
