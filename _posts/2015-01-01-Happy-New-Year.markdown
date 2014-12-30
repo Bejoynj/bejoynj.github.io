@@ -3,7 +3,6 @@ layout: post
 title:  "Happy New Year"
 date:   2015-01-01 00:00:00
 categories: Welcome Post
-tags: featured
 image: /assets/article_images/2015-01-01-happynewyear/main_banner_hny.jpg
 ---
 
