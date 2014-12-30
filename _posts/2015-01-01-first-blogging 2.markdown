@@ -11,7 +11,8 @@ image: /assets/article_images/2015-01-01-happynewyear/main_banner_hny.jpg
 
 <p>
 
-Its 2015!!
+Its 2015!!</p>
+<p>
 A new Year ..A new start
 I am Extremely happy , proud and madly excited to step into the blogging world along with 2015
 With lot of hope and prayers for the new year thats ahead of me.<br/>
