@@ -44,6 +44,9 @@
         </div>
       </article>
     </main>
+    {% if site.disqus_shortname and page.comments %}<!-- #disqus_thread -->
+      <section id="disqus_thread"></section>
+    {% endif %}
     <div class="bottom-closer">
       <div class="background-closer-image" {%if site.cover %} style="background-image: url({{ site.cover }})"{% endif %}>
         Image
