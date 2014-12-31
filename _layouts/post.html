@@ -62,6 +62,9 @@
             {% endfor %}
           </section>
         </footer>
+        {% if site.disqus_shortname and page.comments %}<!-- #disqus_thread -->
+          <section id="disqus_thread"></section>
+        {% endif %}
         <div class="bottom-teaser cf">
           <div class="isLeft">
             <h5 class="index-headline featured"><span>Written by</span></h5>
