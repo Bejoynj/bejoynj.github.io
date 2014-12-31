@@ -32,3 +32,4 @@ Then I advanced to the next level of spreading my colours through WEB design and
 In this space I would mostly share intresting bits from my career and life...so stick around
 </p> 
 
+
