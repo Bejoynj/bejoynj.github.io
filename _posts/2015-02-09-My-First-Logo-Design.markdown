@@ -6,7 +6,7 @@ categories: Welcome Post
 image: /assets/article_images/2015-02-09-myfirstlogodesign/Banner.jpg
 ---
 
-<img src="/assets/article_images/2015-02-09-myfirstlogodesign/logo.jpg">
+<img src="/assets/article_images/2015-02-09-myfirstlogodesign/Logo.jpg">
 
 <p>
 Its 2015!!
