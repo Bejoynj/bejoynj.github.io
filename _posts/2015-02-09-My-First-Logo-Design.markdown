@@ -6,7 +6,7 @@ categories: Welcome Post
 image: /assets/article_images/2015-02-09-myfirstlogodesign/Banner.jpg
 ---
 
-<p>My first project a logo for a cricket club</p>
+<p>My first project logo for a cricket club</p>
 
 <a href="https://www.behance.net/gallery/23488423/2-STATES"><img src="/assets/article_images/2015-02-09-myfirstlogodesign/Logo.jpg"></a>
 
