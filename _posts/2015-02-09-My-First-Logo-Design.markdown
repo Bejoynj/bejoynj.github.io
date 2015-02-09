@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Happy New Year"
-date:   2015-01-01 00:00:00
+title:  "My First Logo Design"
+date:   2015-02-09 06:05:01
 categories: Welcome Post
-image: /assets/article_images/2015-01-01-happynewyear/main_banner_hny.jpg
+image: /assets/article_images/2015-02-09-myfirstlogodesign/Banner.jpg
 ---
 
-<img src="/assets/article_images/2015-01-01-happynewyear/fingersverticle.png">
+<img src="/assets/article_images/2015-02-09-myfirstlogodesign/logo.jpg">
 
 <p>
 Its 2015!!
