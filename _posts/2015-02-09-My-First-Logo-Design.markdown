@@ -8,7 +8,9 @@ image: /assets/article_images/2015-02-09-myfirstlogodesign/Banner.jpg
 
 <p>My first project a logo for a cricket club</p>
 
-<img src="/assets/article_images/2015-02-09-myfirstlogodesign/Logo.jpg">
+<a href="https://www.behance.net/gallery/23488423/2-STATES"><img src="/assets/article_images/2015-02-09-myfirstlogodesign/Logo.jpg"></a>
+
+you can view my project on <a href="https://www.behance.net/gallery/23488423/2-STATES">behance</a>
 
 
 
