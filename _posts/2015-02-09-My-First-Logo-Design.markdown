@@ -13,4 +13,4 @@ we all started talking .. talking... it was so noisy.</p><br/>
 <p>Now thats the story behind the birth of my 'FIRST logo design'</p>
 <a href="https://www.behance.net/gallery/23488423/2-STATES"><img src="/assets/article_images/2015-02-09-myfirstlogodesign/Logo.jpg"></a>
 <p>Please find my design in <a href="https://www.behance.net/gallery/23488423/2-STATES" target="_blank">BEHANCE</a></p><br/>
-<a href="https://www.behance.net/gallery/23488423/2-STATES"><button>Click for More</button></a>
+
