@@ -15,14 +15,6 @@ we all started talking .. talking... it was so noisy.</p><br/>
 <p>Nw thts the story behind the birth of my 'FIRST logo design'</p><br/><br/>
 
 <a href="https://www.behance.net/gallery/23488423/2-STATES"><img src="/assets/article_images/2015-02-09-myfirstlogodesign/Logo.jpg"></a>
-=======
-<p>My first project, logo for a Cricket Club</p>
-
-<a href="https://www.behance.net/gallery/23488423/2-STATES" target="_blank"><img src="/assets/article_images/2015-02-09-myfirstlogodesign/Logo.jpg"></a>
-
-You can view my project with complete branding on <a href="https://www.behance.net/gallery/23488423/2-STATES" target="_blank">behance</a>
-
->>>>>>> FETCH_HEAD
 
 <p>Please find my design in BEHANCE</p><br/><br/>
 <a href="https://www.behance.net/gallery/23488423/2-STATES"><button>Click for More</button></a>
