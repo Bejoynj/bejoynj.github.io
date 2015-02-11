@@ -66,11 +66,8 @@
         </footer>
         {% if page.comments %}<!-- #disqus_thread -->
            <section id="disqus_thread">
-    
-{% include disqus.html %}
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    
            </section>
+            {% include disqus.html %}
         {% endif %}
         <div class="bottom-teaser cf">
           <div class="isLeft">
