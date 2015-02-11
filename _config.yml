@@ -6,6 +6,7 @@ highlighter: pygments
 title: "Bejoy's Blog"
 description: > # this means to ignore newlines until "email:"
   Lets Talk About "?"
+comments: true
 disqus_shortname: bejoynj
 email: bejoynj4@gmail.com
 #blog logo
