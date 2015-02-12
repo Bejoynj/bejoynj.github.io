@@ -4,8 +4,7 @@ highlighter: pygments
 
 # Site settings
 title: "Bejoy's Blog"
-description: > # this means to ignore newlines until "email:"
-  Lets Talk About "?"
+description: Lets Talk About "?"
 
 email: bejoynj4@gmail.com
 comments: true
