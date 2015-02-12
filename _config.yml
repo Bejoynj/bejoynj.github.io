@@ -9,7 +9,7 @@ description: > # this means to ignore newlines until "email:"
 
 email: bejoynj4@gmail.com
 comments: true
-disqus_shortname = bejoynj
+disqus_shortname: bejoynj
 #blog logo
 logo: "/assets/images/bejoylogo.jpg"
 # blog cover
