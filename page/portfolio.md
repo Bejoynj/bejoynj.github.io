@@ -4,4 +4,4 @@ title: PORTFOLIO
 permalink: /portfolio/
 ---
 
-<p>COMING SOON</p>
+{% include portfolio.html %}
