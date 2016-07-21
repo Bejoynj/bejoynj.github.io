@@ -1,6 +1,6 @@
 ---
 layout: page
 title: Services
-permalink: /portfolio/services/
+permalink: /services/
 ---
 ***Content will update soon***

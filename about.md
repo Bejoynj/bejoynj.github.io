@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /portfolio/about/
+title: About Me
+permalink: /about/
 ---
 
 About me
