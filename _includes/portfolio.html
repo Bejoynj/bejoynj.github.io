@@ -1,0 +1,19 @@
+<!-- Portfolio Grid Section -->
+<div id="rightside-section">
+      <article id="wraprightside-section">
+        <div id="gallery">
+            {% for post in site.posts %}
+          <div class="gal-item">
+              <a class="galinner">
+            <div class="gal-content">
+                <h1>{{ post.title }}</h1>
+                <p> {{ post.content }}</p>
+            </div>
+            <img src="/portfolio/assets/images/{{ post.thumbnail }}">
+                  </a>
+          </div>
+            {% endfor %}         
+        </div>
+      </article>
+    </div>
+  </section>

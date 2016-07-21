@@ -1,0 +1,34 @@
+---
+---
+<!DOCTYPE html>
+<!--[if lte IE 6]><html class="preIE7 preIE8 preIE9"><![endif]-->
+<!--[if IE 7]><html class="preIE8 preIE9"><![endif]-->
+<!--[if IE 8]><html class="preIE9"><![endif]-->
+<!--[if gte IE 9]><!--><html><!--<![endif]-->
+{% include head.html %}
+  <body>
+ {% include header.html %}
+      <div id="logo">
+          <img src="/assets/images/{{ site.logo }}">
+        </div>
+ {% include sections.html %}
+  <!-- The overlay -->
+<div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+      <a class="hvr-underline-from-left" href="{{ site.url }}">Home</a>
+      {% for my_page in site.pages %}
+          {% if my_page.title %}
+          <a class="hvr-underline-from-left" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          {% endif %}
+        {% endfor %} 
+  </div>
+
+</div>
+ {% include javascripts.html %}
+  </body>
+</html> 

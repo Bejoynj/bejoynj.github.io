@@ -1,0 +1,378 @@
+@font-face{
+    font-family:"Lato-Black";
+    src:url(/assets/fonts/lato/Lato-Black.ttf);
+}
+@font-face{
+    font-family:"Lato-Bold";
+    src:url(/assets/fonts/lato/Lato-Bold.ttf);
+}
+@font-face{
+    font-family:"Lato-BoldItalic";
+    src:url(/assets/fonts/lato/Lato-BoldItalic.ttf);
+}
+@font-face{
+    font-family:"Lato-Regular";
+    src:url(/assets/fonts/lato/Lato-Regular.ttf);
+}
+@font-face{
+    font-family:"Lato-Light";
+    src:url(/assets/fonts/lato/Lato-Light.ttf);
+}
+@font-face{
+    font-family:"Lato-Hairline";
+    src:url(/assets/fonts/lato/Lato-Hairline.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;    
+}
+body{
+	background-color: #f4f4f4;
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family:"Lato-Bold";
+}
+a,p,li{
+	font-family:"Lato-Regular";
+    font-size: 14px;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+.nav-menu .icon-bar{
+	width: 25px;
+	height: 2px;
+	background-color: #fff;
+}
+#leftcontact>li{
+	margin-bottom: 3px;
+}
+.soc-icons {
+	padding-left: 0;
+}
+.soc-icons li{
+	display: inline-block;
+	margin-right: 3px;
+}
+.soc-icons li a i{
+	color: #fff;
+}
+/* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(59, 151, 211,); /* Black fallback color */
+    background-color: rgba(59, 151, 211, 0.9); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+/*-webkit-animation-name: spaceInUp;
+  animation-name: spaceInUp;*/
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #fff;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    /*-webkit-animation-name: spaceInUp;
+  animation-name: spaceInUp;*/
+      display: table;
+    margin: 0 auto;
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+    color: #f4f4f4;
+}
+
+/* Position the close button (top right corner) */
+.closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px !important; /* Override the font-size specified earlier (36px) for all navigation links */
+}
+/*updates*/
+/* Underline From Left */
+.hvr-underline-from-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #fff;
+  height: 4px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+  right: 0;
+}
+#lines { 
+   position: relative;
+    margin-right: 2%;
+    border: none;
+    border-radius: 2px;
+    height: 36px;
+    width: 36px;
+    float: left;
+    background-color: transparent;
+    cursor: pointer;
+}
+#lines:before{
+        position: absolute;
+    content: "";
+    border-top: 5px solid #fff;
+    border-bottom: 15px double #fff;
+    height: 5px;
+    width: 28px;
+    top: 4px;
+    right: 5px;
+}
+#lines:after{
+        position: absolute;
+    content: "";
+    border-left: 5px solid #3b97d3;
+    border-right: 5px solid #3b97d3;
+    height: 30px;
+    width: 6px;
+    top: 4px;
+    left: 9px;
+}
+.gal-item{
+    position: relative;
+}
+.galinner{
+    width: 100%;
+    height: 100%;
+}
+.gal-content{
+    z-index: 1;
+        height: 100%;
+    width: 50%;
+    background-color: rgba(59, 151, 211, 0.9);
+    opacity: 0;
+     transition: all 0.8s ease;
+     -ms-transition: all 0.8s ease;
+      -webkit-transition: all 0.8s ease;
+    color: #fff;
+    text-align: center;
+      position: absolute;
+}
+.gal-item:hover .gal-content{
+    opacity: 1;
+}
+.gal-item img{
+    transition: all 0.5s ease;
+     -ms-transition: all 0.5s ease;
+      -webkit-transition: all 0.5s ease;
+    opacity: 1;
+}
+.gal-item:hover img{
+    -ms-transform: scale(0.87,0.87); /* IE 9 */
+    -webkit-transform: scale(0.87,0.87); /* Safari */
+    transform: scale(0.87,0.87); /* Standard syntax */
+    z-index: 0;
+    position: static;
+    left: 40px;
+    opacity: 0.5;
+}
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .closebtn {
+        font-size: 40px !important;
+        top: 15px;
+        right: 35px;
+    }
+}
+@media (max-width: 767px){
+    .nav-bar{
+        background-color: #3b97d3;
+    }
+    .site-footer{
+        display: block;
+        background-color: #616161;
+        color: #fff;
+    }
+      #wrapleftside-section  #leftcontact{
+        display: none;
+    }
+    .site-footer  #leftcontact{
+        display: block;
+            text-align: center;
+    }
+    br {display:none}
+    #lines{
+        margin: 5px;
+    }
+    .nav-bar h1{
+          padding: 10px;
+    font-size: 21px;
+    color: #fff;  
+    }
+    #logo{
+            margin: 0 auto;
+    max-width: 100px;
+    }
+    #wrapleftside-section p{
+        display: none;
+    }
+}
+@media (min-width: 768px){
+html,body,#full-section{
+	height: 100%;
+	position: relative;
+}
+#wrapleftside-section{
+	padding:50px 30px;
+	height: 100%;
+	width: 100%;
+	max-width: 270px
+}
+#leftside-section{
+	width: 40%;
+    height: 100%;
+    background-color: #3b97d3;
+        position: fixed;
+}
+#leftside-section h1{
+	font-family:"Lato-Bold";
+	font-size: 48px;
+	line-height: 26px;
+	color: #fff;
+	margin: 50px auto 20px auto;
+}
+#leftside-section h1 span{
+	font-family:"Lato-Light";
+	font-size: 32px;
+}
+#leftside-section p{
+	color: #fff;
+    font-size: 16px;
+    font-family:"Lato-Light";
+}
+#leftcontact{
+	color: #fff;
+	padding-left: 0px;
+	list-style: none;
+	position: absolute;
+	bottom: 50px;
+}
+#wraprightside-section{
+	    background-color: #fff;
+    position: absolute;
+    top: 50px;    
+    left:330px;
+    right: 30px;
+    padding: 50px 20px 20px 20px;
+margin-bottom: 50px;
+}
+    .gal-item{
+    position: relative;
+    width: 100%;
+    float: left;
+    cursor: pointer;
+}
+    .site-footer{
+        display: none;
+    }
+    #logo{
+	position: relative;
+}
+    #logo img{
+    position: absolute;
+    left: 58%;
+    right: 42%;
+    max-width: 100px;
+    z-index: 1;
+    top: 15px;
+    }
+      #wrapleftside-section  #leftcontact{
+        display: block;
+    }
+    .site-footer #leftcontact{
+        display: none;
+    }   
+}
+@media (min-width: 998px){
+    .gal-item{
+    position: relative;
+    width: 49.666%;
+    float: left;
+     cursor: pointer;
+}
+}
+@media (min-width: 1200px){
+    .gal-item{
+    position: relative;
+    width: 33.333%;
+    float: left;
+     cursor: pointer;
+}
+}
+@-webkit-keyframes spaceInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform-origin: 50% 0%;
+    -webkit-transform: scale(.2) translate(0%, -200%);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform-origin: 50% 0%;
+    -webkit-transform: scale(1) translate(0%, 0%);
+  }
+}
+@keyframes spaceInUp {
+  0% {
+    opacity: 0;
+    transform-origin: 50% 0%;
+    transform: scale(.2) translate(0%, -200%);
+  }
+
+  100% {
+    opacity: 1;
+    transform-origin: 50% 0%;
+    transform: scale(1) translate(0%, 0%);
+  }
+}
