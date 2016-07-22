@@ -60,6 +60,9 @@ img{
 .soc-icons li a i{
 	color: #fff;
 }
+#leftside-section h1 span{
+    text-transform: uppercase;
+}
 /* The Overlay (background) */
 .overlay {
     /* Height & width depends on how you want to reveal the overlay (see JS below) */    
