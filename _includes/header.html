@@ -5,7 +5,7 @@
         </button><br>
         <h1>
           BEJOY's
-          <span>PORTFOLIO</span>
+          <span>{% if page.url == site.url %}Portfolio{% else %}{{ page.title }}{% endif %}</span>
         </h1>
         </div>
         <p>"{{ site.description }}"</p>
