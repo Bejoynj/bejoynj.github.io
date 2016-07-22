@@ -2,10 +2,10 @@
     <aside id="leftside-section">
       <article id="wrapleftside-section">
         <div class="nav-bar"><button id="lines" type="button" class="nav-menu" onclick="openNav()">
-        </button><br>
+        </button><br>{{ site.baseurl }}
         <h1>
           BEJOY's
-          {% if page.url == site.url %}
+          {% if page.url == "http://bejoynj.com/" %}            
             <span>Portfolio</span>
             {% else %}
             <span>{{ page.title }}</span>
