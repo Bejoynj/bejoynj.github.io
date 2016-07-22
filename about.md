@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Me
-permalink: /about/
+permalink: about/
 ---
 
 Basically , I'm a Btech graduate in Computer Science, passionate about designs , colours and art. I fell in love with building creativty and art , right from my childhood, I grew up putting my favourite

@@ -11,8 +11,8 @@ email: bejoynj4@gmail.com
 logo: blogo.png
 description: > # this means to ignore newlines until "baseurl:"
   I'm a passionate designer and hardworking web developer, creating unique and out of box user experiences is my dream, i would love anything that say's design creativity and colours And ofcourse a cup of strong coffee to keep my creativity alive
-baseurl: "http://bejoynj.com" # the subpath of your site, e.g. /blog
-url: "http://bejoynj.com" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://bejoynj.com/" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
