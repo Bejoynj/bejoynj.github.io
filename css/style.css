@@ -183,6 +183,7 @@ img{
 }
 .gal-item{
     position: relative;
+    margin-bottom: -4px;
 }
 .galinner{
     width: 100%;
@@ -190,7 +191,7 @@ img{
 }
 .gal-content{
     z-index: 1;
-        height: 100%;
+    height: 98.5%;
     width: 100%;
     background-color: rgba(59, 151, 211, 0.9);
     opacity: 0;
