@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Kingsbreed Website"
 date:   2016-07-05 13:37:45 +0530
-categories: jekyll update
+categories: 
 thumbnail: Kingsbreed-full.jpg
+weburl: http://www.masihimandir.com/
 ---
-Kingsbreed.com
+masihimandir.com

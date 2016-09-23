@@ -4,7 +4,7 @@
         <div id="gallery">
             {% for post in site.posts %}
           <div class="gal-item">
-              <a class="galinner">
+              <a class="galinner" href="{{ post.weburl }}" target="_blank">
             <div class="gal-content">
                 <h1>{{ post.title }}</h1>
                 <p> {{ post.excerpt }}</p>
