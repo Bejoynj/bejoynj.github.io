@@ -20,7 +20,7 @@
 
   <!-- Overlay content -->
   <div class="overlay-content">
-      <a class="hvr-underline-from-left" href="{{ site.url }}">Home</a>
+      <a class="hvr-underline-from-left" href="{{ site.url }}">Portfolio</a>
       {% for my_page in site.pages %}
           {% if my_page.title %}
           <a class="hvr-underline-from-left" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
