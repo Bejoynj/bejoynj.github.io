@@ -191,7 +191,7 @@ img{
 .gal-content{
     z-index: 1;
         height: 100%;
-    width: 50%;
+    width: 100%;
     background-color: rgba(59, 151, 211, 0.9);
     opacity: 0;
      transition: all 0.8s ease;
