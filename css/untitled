@@ -42,6 +42,12 @@ img{
 	width: 100%;
 	height: auto;
 }
+.hide{
+  display: none;
+}
+.text-align-center{
+  text-align: center;
+}
 .nav-menu .icon-bar{
 	width: 25px;
 	height: 2px;
@@ -74,8 +80,7 @@ img{
     z-index: 1; /* Sit on top */
     left: 0;
     top: 0;
-    background-color: rgb(59, 151, 211,); /* Black fallback color */
-    background-color: rgba(59, 151, 211, 0.9); /* Black w/opacity */
+    background-color: rgba(0, 0, 0, 0.82); /* Black w/opacity */
     overflow-x: hidden; /* Disable horizontal scroll */
     transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
 /*-webkit-animation-name: spaceInUp;
@@ -195,7 +200,7 @@ img{
     z-index: 1;
     height: 98.5%;
     width: 100%;
-    background-color: rgba(59, 151, 211, 0.9);
+    background-color: rgba(30, 136, 229, 0.66);
     opacity: 0;
      transition: all 0.8s ease;
      -ms-transition: all 0.8s ease;
@@ -225,6 +230,160 @@ img{
     left: 40px;
     opacity: 0.5;
 }
+/*resume*/
+.resumemain h1, .resumemain h2, .resumemain h3, .resumemain h4, .resumemain span {
+      margin: 0 0 15px 0;
+      padding: 0;
+      font-weight: normal;
+      font-family:"Lato-Regular";
+    }
+    .resumemain h1 {
+      font-size: 500%;
+    }
+    .resumemain h2 {
+      font-size: 210%;
+    }
+    .resumemain h3 {
+      font-size: 150%;
+    }
+    
+    .resumemain p {
+      margin: 0 0 10px 0;
+    }
+    .resumemain a {
+      color: #222;
+    }
+    .resumemain b{
+      font-family:"Lato-bold";
+    }
+    /* ________________________________________________________ */
+    .rtl {
+      direction: rtl;
+    }
+    .clear {
+      clear: both;
+    }
+
+    #main {
+      background: #fff;
+    padding: 25px;
+    margin: 0 auto 15px auto;
+    overflow: hidden;
+    }
+    
+    #title {
+      margin: 0px 0 30px 0;
+      line-height: 70px;
+      text-align: center;
+      color: #111;
+    }
+    
+    #credit {
+      margin-bottom: 20px;
+      font-size: 11px;
+      color: #999;
+      text-align: center;
+    }
+      #credit a {
+        color: #999;
+      }
+    
+    .resumemain p label {
+      float: left;
+      margin-right: 10px;
+      min-width: 50px;
+    }
+      .resumemain p label span.colon {
+        float: right;
+      }
+    .resumemain p span.value {
+      float: left;
+      width: 70%;
+      display: block;
+    }
+    
+    .section {
+      margin-bottom: 40px;
+      padding-bttom: 20px;
+    }
+    
+    .item {
+      margin: 0 0 20px 0;
+    }
+
+    .basic-info {
+      padding: 0px 0 0px 140px;
+      
+    }
+    .basic-info p {
+      float: left;
+      width: 48%;
+      margin: 0 0 0px 0;
+    }
+    .basic-info p.full {
+      width: 100%;
+      float: none;
+    }
+      .basic-info .r {
+        float: right;
+      }
+
+    /* education _____________________________ */
+    
+    .section .title {
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 5px;
+    }
+    .section span.value {
+      display: block;
+    }
+    .section h3 span.l, .section span.r {
+      width: 49%;
+      float: left;
+    }
+      .section span.r {
+        float: right;
+        text-align: right;
+      }
+      .section-education .school,
+      .section-work .job_title {
+        font-size: 120%;
+        display: block;
+        margin: 5px 0 5px 0;
+      }
+
+    /* ___ photo ___ */
+    #photo {
+      width: 160px;
+      height: 200px;
+      overflow: hidden;
+      float: left;
+      margin-top: 12px;
+      border-radius: 4px;
+    }
+    #photo img {
+      width: 100%;
+      height: auto;
+    }
+
+    .header.photo {
+      margin-left: 190px;
+    }
+    .header.photo #title {
+      text-align: left;
+    }
+    .header.photo .basic-info {
+      float: none;
+      padding: 0;
+    }
+
+    @media screen and (max-width: 950px) {
+      #main {
+        box-shadow: none;
+        padding: 0;
+        padding: 5px;
+      }
+    }
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
 @media screen and (max-height: 450px) {
     .overlay a {font-size: 20px}
@@ -281,7 +440,7 @@ html,body,#full-section{
 #leftside-section{
 	width: 40%;
     height: 100%;
-    background-color: #3b97d3;
+    background-color: #2196F3;;
         position: fixed;
 }
 #leftside-section h1{
@@ -313,7 +472,7 @@ html,body,#full-section{
     top: 50px;    
     left:330px;
     right: 30px;
-    padding: 50px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
 margin-bottom: 50px;
 }
     .gal-item{
