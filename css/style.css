@@ -27,7 +27,7 @@
     margin: 0;    
 }
 body{
-	background-color: #f4f4f4;
+	background-color: #f3f3f3;
     padding: 0;
     margin: 0;
 }
@@ -80,7 +80,7 @@ img{
     z-index: 1; /* Sit on top */
     left: 0;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.82); /* Black w/opacity */
+    background-color: #1565C0; /* Black w/opacity */
     overflow-x: hidden; /* Disable horizontal scroll */
     transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
 /*-webkit-animation-name: spaceInUp;
@@ -181,8 +181,8 @@ img{
 #lines:after{
         position: absolute;
     content: "";
-    border-left: 5px solid #3b97d3;
-    border-right: 5px solid #3b97d3;
+    border-left: 5px solid #1565C0;
+    border-right: 5px solid #1565C0;
     height: 30px;
     width: 6px;
     top: 4px;
@@ -200,7 +200,7 @@ img{
     z-index: 1;
     height: 98.5%;
     width: 100%;
-    background-color: rgba(30, 136, 229, 0.66);
+    background-color: #1565C0;
     opacity: 0;
      transition: all 0.8s ease;
      -ms-transition: all 0.8s ease;
@@ -216,9 +216,9 @@ img{
     opacity: 1;
 }
 .gal-item img{
-    transition: all 0.5s ease;
-     -ms-transition: all 0.5s ease;
-      -webkit-transition: all 0.5s ease;
+    transition:  all 0.3s ease;
+     -ms-transition:  all 0.3s ease;
+      -webkit-transition:  all 0.3s ease;
     opacity: 1;
 }
 .gal-item:hover img{
@@ -395,7 +395,7 @@ img{
 }
 @media (max-width: 767px){
     .nav-bar{
-        background-color: #3b97d3;
+        background-color: #1565C0;
     }
     .site-footer{
         display: block;
@@ -440,7 +440,7 @@ html,body,#full-section{
 #leftside-section{
 	width: 40%;
     height: 100%;
-    background-color: #2196F3;;
+    background-color: #1565C0;;
         position: fixed;
 }
 #leftside-section h1{
@@ -472,7 +472,7 @@ html,body,#full-section{
     top: 50px;    
     left:330px;
     right: 30px;
-    padding: 20px 20px 20px 20px;
+    padding: 10px;
 margin-bottom: 50px;
 }
     .gal-item{
