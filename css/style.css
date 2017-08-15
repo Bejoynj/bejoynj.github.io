@@ -62,6 +62,8 @@ img{
 }
 #leftside-section h1 span{
     text-transform: uppercase;
+        display: block;
+            margin-top: 10px;
 }
 /* The Overlay (background) */
 .overlay {

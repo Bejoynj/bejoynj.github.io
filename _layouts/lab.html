@@ -6,10 +6,10 @@
 {% include head.html %}
   <body>
  {% include header.html %}
-      <div id="logo">
+      <div id="logo" class="hide">
           <img src="/assets/images/{{ site.logo }}">
         </div>
-      {% include portfolio.html %}
+ {% include labcontent.html %}
   <!-- The overlay -->
 <div id="myNav" class="overlay">
 
@@ -17,8 +17,8 @@
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
   <!-- Overlay content -->
+    
   <div class="overlay-content">
-      <a class="hvr-underline-from-left" href="{{ site.url }}">Home</a>
       {% for my_page in site.pages %}
           {% if my_page.title %}
           <a class="hvr-underline-from-left" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
@@ -28,6 +28,7 @@
   </div>
 
 </div>
+      {% include footer.html %}
  {% include javascripts.html %}
   </body>
 </html>
