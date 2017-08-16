@@ -1,5 +1,5 @@
 ---
-<!-- layout: resume
-title: Resume
-permalink: resume/ -->
+layout: <!-- resume -->
+title: <!-- Resume -->
+permalink: resume/ 
 ---
